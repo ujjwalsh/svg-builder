@@ -32,6 +32,7 @@ env:
     - GHCVER=8.8.1 CABALVER=3.0
       arch: ppc64le
     - GHCVER=head CABALVER=head
+      arch: ppc64le
 
 matrix:
   allow_failures:
